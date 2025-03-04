@@ -1,0 +1,666 @@
+fileFormatVersion: 2
+guid: 3696be5ecbf2c684593e02af2b4eb525
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_9
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 659
+        width: 474
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e535026f575f1ae40bee8ca0bb6b5b18
+      internalID: 654985920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 377
+        width: 247
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4e27f693b16f84c8419ff72a0aca1c
+      internalID: 382516794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 377
+        width: 249
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72de97eb1f68684297157e8a6d5c164
+      internalID: 1617595685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 377
+        width: 248
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ee345c809cf4b4d94f1552aa25e6c4
+      internalID: -1531527462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_13
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 376
+        width: 248
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9caf8749a2f27a4ba9fcff10a4ca77b
+      internalID: 1215737509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_14
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 376
+        width: 247
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2300065e064111346a45e1c29fbcbd00
+      internalID: 2103583629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_15
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 373
+        width: 247
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d28e074b81562549b400ae941ce2c19
+      internalID: 382301039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_40
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 125
+        width: 168
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a164465586a7f4fae3dc92e763719d
+      internalID: -2095128447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_41
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 125
+        width: 168
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bded103f825cd40b8a1605e61a0fd5
+      internalID: 1778550070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_42
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 125
+        width: 169
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9163d89c5ab981e4386c0c8787eb8e1c
+      internalID: -1723672321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_43
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 124
+        width: 168
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53fe7d40d478e146aff072e5c742164
+      internalID: 2131841572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_44
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 125
+        width: 169
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4df4fb4c2553e4ab6ccbdc0a5f9e60
+      internalID: 407499927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_45
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 124
+        width: 170
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7093c73810072542bb2f9b1c48ffb01
+      internalID: 1122718748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_46
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 125
+        width: 170
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c075f76b8fdd5ad4e81f601ff7dfbde0
+      internalID: -177615443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_47
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 124
+        width: 170
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40143a2b529c64f44ba945a455ba8a37
+      internalID: 246893568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Chapter Buttons Pre-2012_48
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 120
+        width: 170
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaee885bbcab0674188a53e313f692d2
+      internalID: -2126783371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_0: -1040175705
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_1: -2133878740
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_10: 382516794
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_100: 1459495119
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_101: 58165583
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_102: -1714696550
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_103: 1838335
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_104: 2109964634
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_105: 516102897
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_106: -2886838
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_107: -1121118714
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_108: -1583140792
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_109: 318456885
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_11: 1617595685
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_110: -742422335
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_111: 869523898
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_112: 412164052
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_113: 1090079864
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_114: -1277367961
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_115: -1105889752
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_116: -1527697464
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_117: 611816175
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_118: -1322764604
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_119: -2059300672
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_12: -1531527462
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_120: -1103492320
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_121: 1752209567
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_122: 1102731682
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_123: -1470223115
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_124: -903003983
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_125: -1455423289
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_126: 1238500117
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_127: -1606516609
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_128: -2039410727
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_129: -1262736106
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_13: 1215737509
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_130: 2073449773
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_131: 1211236331
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_132: 635386226
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_133: 109735647
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_134: -798942220
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_135: 1868248081
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_136: -927573189
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_137: 555170562
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_138: 1594736129
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_139: -74699217
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_14: 2103583629
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_140: -452578747
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_141: 532655891
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_142: 762940442
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_143: 337754623
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_144: -1258641249
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_145: -880322682
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_146: -1392333525
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_147: 1930812023
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_148: 2086785441
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_149: 1181411064
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_15: 382301039
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_150: 990521835
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_151: -1994197340
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_152: 1039203962
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_153: 387948053
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_154: -886807450
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_155: 1693484304
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_156: 1839273175
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_157: 1682335122
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_158: -90977970
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_159: -1381629672
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_16: 700255163
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_160: -334262949
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_161: -5573508
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_162: 777945492
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_163: -639162990
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_164: 510484722
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_165: 332218699
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_166: 1914677650
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_167: 964079572
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_168: -1284104442
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_169: -1315174165
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_17: 1169581075
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_170: -2021666909
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_171: -1420717283
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_172: -1811405955
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_173: 1754541604
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_174: 388177169
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_175: -1299130854
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_176: 628590075
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_177: -855828627
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_178: -54725304
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_179: 170088482
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_18: -743621062
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_180: 1364396934
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_181: -630601437
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_182: 1530918242
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_183: -1398208821
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_184: 1373485589
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_185: 1623781568
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_186: -758880935
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_187: 798844034
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_188: 1130908773
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_189: 500363969
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_19: -540803917
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_2: 34300917
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_20: 359302536
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_21: 1554095187
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_22: -1449640987
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_23: -360764076
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_24: -1111367339
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_25: -514016537
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_26: -1619476276
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_27: 2138652146
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_28: 1244091803
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_29: -1329916618
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_3: -615549066
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_30: 300709808
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_31: 1248039006
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_32: -1921578856
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_33: -1508842301
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_34: -632053839
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_35: 2073723455
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_36: -83933709
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_37: -1859746427
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_38: 1415850107
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_39: 1796750291
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_4: 2021204419
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_40: -2095128447
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_41: 1778550070
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_42: -1723672321
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_43: 2131841572
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_44: 407499927
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_45: 1122718748
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_46: -177615443
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_47: 246893568
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_48: -2126783371
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_49: -610560002
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_5: 721669926
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_50: -985837721
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_51: 514132959
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_52: 1847956194
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_53: -403945765
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_54: 501438968
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_55: 1959616045
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_56: 2073853000
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_57: 741748304
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_58: 1147876432
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_59: 1316460843
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_6: -734072406
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_60: -2122159359
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_61: -367447232
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_62: -936189236
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_63: 577424984
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_64: -1650677545
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_65: -320369626
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_66: 1520780755
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_67: -1811806000
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_68: -302767364
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_69: -645369801
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_7: 476839366
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_70: 1450303669
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_71: -1447916819
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_72: -910391951
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_73: 1796303108
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_74: 814482554
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_75: -797247515
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_76: 305692004
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_77: 1814746239
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_78: -1372852121
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_79: -1389917473
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_8: -1724628056
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_80: -435942213
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_81: 101819280
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_82: -1215563560
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_83: 1025926823
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_84: 266121780
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_85: 1434932817
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_86: -1039432896
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_87: 248620392
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_88: 2141846950
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_89: -1380333565
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_9: 654985920
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_90: -1567006191
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_91: 1367963128
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_92: -1462901426
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_93: 67670514
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_94: 759978879
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_95: 238111748
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_96: -557242152
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_97: -1650776445
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_98: -563388734
+      Mobile - Angry Birds - Chapter Buttons Pre-2012_99: 1925755843
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

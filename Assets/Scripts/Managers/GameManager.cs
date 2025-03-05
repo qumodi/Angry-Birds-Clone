@@ -7,6 +7,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public enum InputType { Mobile, PC }
 
@@ -20,7 +21,7 @@ public class GameManager : MonoBehaviour, IData
     [SerializeField] private UILevelResult WinMenu;
     [SerializeField] private UILevelResult LoseMenu;
     [SerializeField] private UILevelResult PauseMenu;
-
+    public ButtonsManager ThisButtonManager;
     [SerializeField] private SlingshotHandler sl;
 
     private List<Enemy> Enemies = new List<Enemy>();
@@ -89,6 +90,8 @@ public class GameManager : MonoBehaviour, IData
         {
             GameInputType = InputType.PC;
         }
+
+        
     }
 
     private void Start()
@@ -105,6 +108,8 @@ public class GameManager : MonoBehaviour, IData
         //{
         //    Birds.Add(bird);
         //}
+        ThisButtonManager = GameObject.FindAnyObjectByType<ButtonsManager>();
+        //UpdatePauseMenu();
     }
 
     //Slingshot functions
@@ -114,6 +119,7 @@ public class GameManager : MonoBehaviour, IData
         currNumOfShots++;
         CheckLastShoot();
     }
+
     public bool CanShoot()
     {
         return currNumOfShots != maxNumOfShots;
@@ -351,6 +357,7 @@ public class GameManager : MonoBehaviour, IData
         //    SoundManager.PauseAllSounds();
         //}
         //AudioListener.pause = true;
+        GameManager.Instance.UpdatePauseMenu();
 
     }
 
@@ -421,5 +428,23 @@ public class GameManager : MonoBehaviour, IData
         }
         //Birds.RemoveRange(0, currNumOfShots);
         return tempBirds;
+    }
+
+    public void UpdatePauseMenu()
+    {
+        
+        Button RestartButton = GameObject.FindGameObjectWithTag("Restart Button").GetComponent<Button>();
+        Button ContinueButton = GameObject.FindGameObjectWithTag("Continue Button").GetComponent<Button>();
+        Button MenuButton = GameObject.FindGameObjectWithTag("Menu Button").GetComponent<Button>();
+
+        Debug.Log(RestartButton);
+        RestartButton.onClick.AddListener(UnPauseLevel);
+        RestartButton.onClick.AddListener(ThisButtonManager.Restart);
+
+        ContinueButton.onClick.AddListener(UnPauseLevel);
+
+        MenuButton.onClick.AddListener(ExitLevel);
+        MenuButton.onClick.AddListener(ThisButtonManager.LoadLevelMenu);
+
     }
 }

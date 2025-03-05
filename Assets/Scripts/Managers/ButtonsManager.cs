@@ -74,6 +74,7 @@ public class ButtonsManager : MonoBehaviour
     public void PauseLevel(GameObject PauseMenu)
     {
         PauseMenu.SetActive(true);
+        GameManager.Instance.UpdatePauseMenu();
     }
 
     public void UnPauseLevel(GameObject PauseMenu)

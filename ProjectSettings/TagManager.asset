@@ -9,6 +9,9 @@ TagManager:
   - Bird
   - Pig
   - BackGround
+  - Restart Button
+  - Continue Button
+  - Menu Button
   layers:
   - Default
   - TransparentFX

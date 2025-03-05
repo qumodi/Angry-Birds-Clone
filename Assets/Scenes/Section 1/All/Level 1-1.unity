@@ -2652,7 +2652,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.017239, y: 6.61922, z: -10}
+  m_LocalPosition: {x: 7.9, y: 6.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10022,6 +10022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 3787977124549254690, guid: 89364ad51bfb3e246985583c5b0d2bfb, type: 3}
+      propertyPath: m_TagString
+      value: Restart Button
+      objectReference: {fileID: 0}
     - target: {fileID: 4500377614737347238, guid: 89364ad51bfb3e246985583c5b0d2bfb, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -10110,6 +10114,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 9836634}
+    - target: {fileID: 6237241611422131128, guid: 89364ad51bfb3e246985583c5b0d2bfb, type: 3}
+      propertyPath: m_TagString
+      value: Menu Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 7784948895658225529, guid: 89364ad51bfb3e246985583c5b0d2bfb, type: 3}
+      propertyPath: m_TagString
+      value: Continue Button
+      objectReference: {fileID: 0}
     - target: {fileID: 8125080360146977653, guid: 89364ad51bfb3e246985583c5b0d2bfb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

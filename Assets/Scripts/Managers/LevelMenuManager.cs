@@ -14,6 +14,7 @@ public class LevelMenuManager : MonoBehaviour
 
     const int rows = 3;
     const int cols = 7;
+    private float ScreenWidth;
     //[SerializeField] private GameObject[][] LevelMenu = new GameObject[rows][];
     [SerializeField] private List<GameObject> LevelMenuRows;
     [SerializeField] private List<GameObject> LocksRows;
@@ -36,6 +37,8 @@ public class LevelMenuManager : MonoBehaviour
         {
         music.PlayMusic();
         }
+
+        ScreenWidth = Screen.width;
     }
 
     void Start()
@@ -107,7 +110,7 @@ public class LevelMenuManager : MonoBehaviour
             ActivePageNumber += 1;
 
             RectTransform rect = PagesContainer.GetComponent<RectTransform>();
-            MoveX(rect, -1920, 1f);
+            MoveX(rect, -ScreenWidth, 1f);
 
             CheckIfButtonsActive();
         }
@@ -126,7 +129,7 @@ public class LevelMenuManager : MonoBehaviour
             ActivePageNumber -= 1;
 
             RectTransform rect = PagesContainer.GetComponent<RectTransform>();
-            MoveX(rect, 1920, 1f);
+            MoveX(rect, ScreenWidth, 1f);
 
             CheckIfButtonsActive();
         }

@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-public enum InputType { Mobile,PC}
+public enum InputType { Mobile, PC }
 
 [System.Serializable]
 public class GameManager : MonoBehaviour, IData
@@ -72,6 +72,23 @@ public class GameManager : MonoBehaviour, IData
             music.StopMusic();
         }
         //Time.timeScale = 0.2f;
+
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            GameInputType = InputType.Mobile;
+        }
+        else if (Application.platform == RuntimePlatform.WebGLPlayer)
+        {
+            GameInputType = InputType.PC;
+        }
+        else if (Application.platform == RuntimePlatform.WindowsPlayer)
+        {
+            GameInputType = InputType.PC;
+        }
+        else
+        {
+            GameInputType = InputType.PC;
+        }
     }
 
     private void Start()
@@ -106,7 +123,7 @@ public class GameManager : MonoBehaviour, IData
     {
         if (currNumOfShots == maxNumOfShots)
         {
-        Debug.Log("LAst Shoot Check");
+            Debug.Log("LAst Shoot Check");
             StartCoroutine(nameof(CheckAfterTime));
         }
     }
@@ -144,7 +161,7 @@ public class GameManager : MonoBehaviour, IData
                 WinSequence();
             }
         }
-        
+
     }
     private bool AllEnemiesDead()
     {
